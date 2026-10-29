@@ -1,0 +1,11 @@
+**Zygor-CoA v1.0.1-CoA — one-folder build**
+
+• Moved all quest, NPC, item, spell and talent archives inside ZygorGuidesViewerRM.
+• Installation now requires only one addon folder.
+• Archive searches, live learning, observed quest rewards and contact sharing are retained.
+• Packed archive strings now load with the main addon; pages still decompress when needed. Initial memory use and login/reload time may increase compared with the separate-pack version.
+• Maintainer: Uncle Bone — https://github.com/downingwow
+
+**Install:** Replace ZygorGuidesViewerRM. Remove the five old ZygorCoAArchive_* folders from Interface/AddOns. Keep SavedVariables to preserve settings and observations.
+
+Lua/load-path checks passed. In-game Conquest Reborn and DragonUI testing is still needed. Archive entries remain historical references.

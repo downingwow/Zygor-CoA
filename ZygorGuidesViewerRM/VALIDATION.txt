@@ -1,0 +1,30 @@
+Zygor CoA 1.0.1-CoA - validation, 2026-10-29
+
+PASS: Lua 5.1 syntax compilation of all 489 addon Lua files.
+PASS: Recursive main TOC/XML load graph, all 469 file references resolve.
+PASS: Live quest log, objective and spellbook capture using simulated 3.3.5a APIs.
+PASS: Quest giver/turn-in capture, native quest reward/choice item IDs.
+PASS: Map ID and both coordinates survive multiple-return API handling.
+PASS: Observed quest names override stock names only in observed locale.
+PASS: Gear Finder receives observed quest rewards and excludes stock quest
+      reward sources on detected CoA clients.
+PASS: Separate giver/turn-in outbound queue records, per-contact deduplication,
+      shared channel selection, invalid message rejection and peer isolation.
+PASS: Decompression and row validation for all 1,496 archive pages:
+      quests 10,776; NPCs 41,817; items 115,373; spells 214,152; talent trees 155.
+PASS: Input archive artifact SHA256 checks before conversion; page hashes retained.
+PASS: Discord update announcement below 2,000 characters (1,324 characters).
+
+NOT PERFORMED: Live game client testing, DragonUI/default UI interaction,
+real shared-channel delivery, or validation of archived facts against current
+Conquest Reborn server state. Existing routes and pre-existing stat weights /
+talent recommendations have not been certified for the realm by these checks.
+
+ONE-FOLDER UPDATE 1.0.1-CoA
+PASS: Exactly one top-level addon folder; 97 embedded archive Lua data files.
+PASS: Embedded data bytes match v1.0.0 exactly.
+PASS: Archive.xml follows integration initialization in the load graph.
+PASS: All 1,496 archive pages registered by the embedded include; item lookup
+      works without calling LoadAddOn.
+NOTE: Compressed archive strings now load at login. Initial memory use and
+      login/reload time may increase; decompression remains demand-driven.
