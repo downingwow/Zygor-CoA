@@ -1,5 +1,8 @@
 # Zygor-CoA — Guided Questing and CoA Reference Tools
 
+> **[⬇ Download v1.0.2]( https://github.com/downingwow/Zygor-CoA/releases/download/v1.0.2/Zygor-CoA-v1.0.2.zip )**
+
+
 A Conquest Reborn adaptation of Zygor Guides Viewer Remastered for the Ascension 3.3.5a client. It combines the guide viewer and navigation interface with CoA quest observations, custom-class integration and a searchable historical reference archive.
 
 ## Features
