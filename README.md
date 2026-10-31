@@ -1,6 +1,6 @@
 # Zygor-CoA — Guided Questing and CoA Reference Tools
 
-> **[⬇ Download v1.0.4](https://github.com/downingwow/Zygor-CoA/releases/download/v1.0.4/Zygor-CoA-v1.0.4-Guide-Audit.zip)**
+> **[⬇ Download v1.0.4](https://github.com/uncle-bone/Zygor-CoA/releases/download/v1.0.4/Zygor-CoA-v1.0.4-Guide-Audit.zip)**
 
 **Current release: v1.0.4 — guide-audit build.**
 
@@ -41,4 +41,4 @@ See `ZygorGuidesViewerRM/CONQUEST-REBORN-README.txt` and the bundled provenance/
 
 Target: Ascension Conquest of Azeroth / Conquest Reborn, legacy WoW 3.3.5a (Interface 30300). Source and package checks do not establish live realm compatibility. Report the addon version, UI addons, and full Lua error when filing an issue. Preserve your WTF SavedVariables when updating.
 
-Maintainer: **Uncle Bone** · [GitHub support](https://github.com/downingwow). This is a community-maintained adaptation. Original authors retain their credits; bundled license and third-party attribution notices remain applicable.
+Maintainer: **Uncle Bone** · [GitHub support](https://github.com/uncle-bone). This is a community-maintained adaptation. Original authors retain their credits; bundled license and third-party attribution notices remain applicable.
